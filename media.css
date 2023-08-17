@@ -1,0 +1,29 @@
+@media only screen and (max-width: 375px){
+    body{
+        grid-template-columns: 350px;
+        grid-template-areas: "div1"
+                             "div2"
+                             "div3";
+        position: none;
+        top: 0;
+        left: 0;
+        transform: none;
+        box-shadow: 10px 10px 5px -55px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 5px -55px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px -55px rgba(0,0,0,0.75);
+        margin: 10px;
+    }
+
+    .item1{
+        margin-top: 40px;
+    }
+    
+    .item2{
+        border-radius: 0px;
+    }
+
+    .item3{
+        border-bottom-left-radius: 10px;
+        margin-bottom: 20px;
+    }
+}    
